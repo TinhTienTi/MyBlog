@@ -47,3 +47,6 @@ E:\BlogSpot\BlogSpot\obj\Debug\BlogSpot.csproj.CoreCompileInputs.cache
 E:\BlogSpot\BlogSpot\obj\Debug\BlogSpot.csproj.CopyComplete
 E:\BlogSpot\BlogSpot\obj\Debug\BlogSpot.dll
 E:\BlogSpot\BlogSpot\obj\Debug\BlogSpot.pdb
+E:\BlogSpot\BlogSpot\bin\Dapper.dll
+E:\BlogSpot\BlogSpot\bin\Dapper.pdb
+E:\BlogSpot\BlogSpot\bin\Dapper.xml

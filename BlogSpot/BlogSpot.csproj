@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dapper, Version=1.35.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.35\lib\net45\Dapper.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -88,6 +91,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\css\toastr\toastr.css" />
+    <Content Include="Resources\css\toastr\toastr.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Resources\css\blue.css" />
     <Content Include="Resources\css\blueviolet.css" />
@@ -136,6 +141,13 @@
     <Content Include="Resources\img\blog\blog-post-4.jpg" />
     <Content Include="Resources\img\blog\blog-post-5.jpg" />
     <Content Include="Resources\img\blog\blog-post-6.jpg" />
+    <Content Include="Resources\css\toastr\toastr.scss" />
+    <Content Include="Resources\css\toastr\toastr.less" />
+    <None Include="Resources\js\toastr\jquery-1.6.3-vsdoc.js" />
+    <Content Include="Resources\js\toastr\jquery-1.6.3.js" />
+    <Content Include="Resources\js\toastr\jquery-1.6.3.min.js" />
+    <Content Include="Resources\js\toastr\toastr.js" />
+    <Content Include="Resources\js\toastr\toastr.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -174,6 +186,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="content\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
