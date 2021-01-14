@@ -1,0 +1,23 @@
+
+
+CREATE TABLE Category
+(
+	ID INT IDENTITY (1,1) PRIMARY KEY,
+	Name NVARCHAR(500),
+	Status INT DEFAULT 1,
+	CreatedDate DATETIME,
+	CreatedBy VARCHAR(20)
+)
+GO
+CREATE TABLE Posts
+(
+	ID INT IDENTITY (1,1) PRIMARY KEY,
+	PostsNamePoster NVARCHAR(50),
+	PostsNameDetail NVARCHAR(250),
+	ContentIMG VARCHAR(250),
+	Content NVARCHAR(MAX),
+	Status INT,
+	CateID int,
+	CreatedDate DATETIME DEFAULT GETDATE(),
+	CreatedBy VARCHAR(20)
+)
