@@ -161,6 +161,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\DB\DBConst.cs" />
+    <Compile Include="Models\DB\Users.cs" />
+    <Compile Include="Models\Parameters\Param.cs" />
+    <Compile Include="Models\Parameters\PramUserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -186,8 +190,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="content\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_GlobalResources\Dictionary.resx">
